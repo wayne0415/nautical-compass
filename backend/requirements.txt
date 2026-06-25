@@ -1,0 +1,7 @@
+# 美股航海王 · 航海羅盤 2.0 後端依賴
+# 版本 pin 至支援 Python 3.9 的最後一線（pandas/numpy 新版已停止支援 3.9）
+fastapi==0.115.*
+uvicorn[standard]==0.30.*
+yfinance>=0.2.40
+pandas==2.2.*
+numpy==1.26.*
